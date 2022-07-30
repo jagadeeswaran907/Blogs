@@ -19,3 +19,4 @@
     4.Possibility to delete an article:
        I have used soft delete concept,if blog delete in frontend side it will delete only in frontend not deleted in databse .I have attached this solution in        my Blogs file, Table name is "blog" and stored procedure name is "adminBlogDelete" and API name is "blog-delete".
   
+ 
