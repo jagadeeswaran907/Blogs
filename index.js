@@ -52,3 +52,6 @@ app.use('/adminBlogCreate', adminBlogCreate);
 
 const clientBlog = require("./routes/clientBlog")
 app.use('/clientBlog', clientBlog);
+
+const clientComment = require("./routes/clientComment")
+app.use('/clientComment', clientComment);
